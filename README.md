@@ -29,7 +29,7 @@ permissions — enforced at the API level, not just hidden in the UI.
 **Prerequisites:** Node.js 18+, PostgreSQL 14+
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/team-task-manager.git
+git clone https://github.com/Tilakwagadre/team-task-manager.git
 cd team-task-manager
 npm run install:all
 ```
@@ -85,10 +85,5 @@ All routes except `/api/auth/*` require `Authorization: Bearer <token>`.
 6. Set env vars: `JWT_SECRET`, `CORS_ORIGIN` (your Railway frontend URL), `NODE_ENV=production`
 7. Set `VITE_API_URL` to your Railway backend URL before building frontend
 8. Generate domains for both services from Railway dashboard
-
-## Demo Credentials
-
-Admin → admin@demo.com / Admin@1234  
-Member → member@demo.com / Member@1234
 
 ---
